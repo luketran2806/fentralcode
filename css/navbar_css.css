@@ -1,0 +1,132 @@
+.nav_link{
+    color:black;
+    text-decoration: none; 
+}
+
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  
+}
+  
+} 
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+/* ============ mobile view .end// ============ */
+
+
+#cartsection{
+    width:500px; 
+  right:0; 
+  height:100%; 
+    display:none;
+    position:fixed;
+    background:rgba(250,250,250,1.0);
+    overflow-x: hidden;
+    z-index: 999;
+  top:0;
+  box-sizing:border-box;
+}
+.cart{
+  width:480px;
+  word-wrap: break-word;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+}
+.carting{
+  width:480px;
+  word-wrap: break-word;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  height: 680px;
+    overflow-y: scroll;
+}
+.cartsection-close-btn{
+  float: left; 
+  color: lightgray; 
+  font-size: 36px;  
+  font-weight: bold;
+  position:relative;
+  right: -8px;
+    top: -10px;
+  cursor:pointer;
+}
+.cartsection-close-btn:hover{
+  color:darkgrey;
+}
+.cart_image {
+    height: 253px;
+    display: block;
+    margin: 0 auto;
+  }
+  .cart_clear_button{
+    position: relative;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .cart_clear_button:hover{
+    background-color: #6A5ACD;
+  color:white;
+  }
+.navtop div a:hover {
+  color: #eaebed;
+}
+.dropbtn:hover, .dropbtn:focus {
+  color: #eaebed;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.navigation_bar_drop_down li a:hover{
+  background-color: #ddd;
+}
+.carticon{
+  position:relative;
+}
+#cart_count{
+  position: absolute;
+}
+#cart_count_cover{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 0px;
+    border-radius: 50%;
+    color:white;
+    text-align: center;
+    background:black;
+    border:1px solid black;
+}
+
+.saveicon{
+  position:relative;
+}
+#save_count{
+  position: absolute;
+}
+#save_count_cover{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 0px;
+    border-radius: 50%;
+    color:white;
+    text-align: center;
+    background:black;
+    border:1px solid black;
+}
+
